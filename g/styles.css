@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif !important;
+}
+.cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.read-btn {
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    background: transparent;
+}
+
+.cover-title {
+    font-family: serif;
+    text-align: right;
+    z-index: 1;
+    font-size: calc(1.375rem + 5.5vw) !important;
+}
+
+.logo {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec-2 {
+    background: rgb(255, 152, 16);
+    background: linear-gradient(180deg, rgba(255, 152, 16, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.sec-3 {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(180deg, rgba(0, 212, 255, 1) 0%, rgba(189, 255, 16, 1) 100%);
+}
+.sec-4 {
+    background: rgb(189,255,16);
+background: linear-gradient(180deg, rgba(189,255,16,1) 0%, rgba(255,201,0,1) 100%);
+}
+
+@media screen and (max-width:768px) {
+    .sec-2 {
+        height: fit-content !important;
+    }
+
+    .sec-3 {
+        height: fit-content !important;
+    }
+    .sec-4 {
+        height: fit-content !important;
+    }
+}
